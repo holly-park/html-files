@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=C, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+
+    <style>
+     body{background-color: rgb(245, 170, 186);
+          color:rgb(133, 133, 134);
+          font-family: 'times new roman';
+          padding: 50px 50px 0px 100px;   /* top right bottom left*/
+     }
+     h1{
+         color:saddlebrown;
+         font-style:78pt;
+         font-family: 'times new roman';
+         background-color: rgb(250, 231, 231);
+     }
+
+         /*클래스 만들기*/
+         h1.type1{
+             color:mediumblue;
+             background-color:rgb(133, 133, 134);
+        
+         }
+
+         .type1{
+             color:rgb(241, 238, 46);
+             
+         }
+
+         #type2{
+             color:rgb(129, 245, 114);
+             background-color:rgb(243, 243, 247);
+             border:rgb(47, 7, 224);
+             border-style:solid;
+           
+         }
+         /* #으로 시작할 경우에는 id속성으로 접근한다.*/
+
+     h2{
+         color:saddlebrown;
+         font-style:78pt;
+         font-family: 'times new roman';
+     }
+
+     
+
+
+    </style>
+</head>
+<body>
+    <h1 style=color:magenta;>CSS Tutorial</h1>
+    <h1 class = "type1">CSS Tutorial</h1>
+   
+    <h1 id="type2" >CSS Tutorial</h1>
+    <h2>Examples in Each Chapter</h2>
+    <h3>CSS Example</h3> 
+    
+    <p class="type1"><a href = "https://www.w3schools.com/css/default.asp">CSS</a> is a language that describes the style of an HTML document.<br> CSS describes how HTML elements should be displayed.<br> This tutorial will teach you CSS from basic to advanced.<br>
+    </p>
+    <p id="type2"><a href = "https://www.w3schools.com/css/default.asp">CSS</a> is a language that describes the style of an HTML document.<br> CSS describes how HTML elements should be displayed.<br> This tutorial will teach you CSS from basic to advanced.<br>
+    </p>
+
+</body>
+</html>

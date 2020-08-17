@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style> 
+        input[type=text] {
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: 2px solid rgb(50, 29, 243);
+          border-radius: 4px;
+        }
+        textarea {
+			border: solid 2px  rgb(50, 29, 243);
+			border-radius: 5px;
+			font-size: 16px;
+			}
+
+        input[type=email] {
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: 2px solid rgb(50, 29, 243);
+          border-radius: 4px;
+        
+        </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formtag2</title>
+</head>
+<body style="background-color:rgb(251, 252, 181);">
+    <h1 style="text-align: center; color:rgb(50, 29, 243);">formtag2</h1>
+    <form action="" method="get" style="text-align: center;" >
+        USER NAME: <input type="text" name="username" id="" style="background-color:rgb(251, 252, 181);"><br>
+
+        <p>Email: <input type="email" value="email" style="background-color:rgb(251, 252, 181);"></p>
+         
+        OCCUPATION: 
+         <select name="job" id="" size=1 style="background-color:rgb(251, 252, 181);" >
+             <option value=''>Select</option>
+             <option value='1'>Student</option>
+             <option value='2'>teacher</option>
+             <option value='3'>dentist</option>
+             <option value='4'>scientist</option>
+             <option value='5'>engineer</option>
+         </select><br>
+         <p><input type="color" value="color">
+                <input type="date" value="date">
+            </p>
+         <p>Job description: <br><textarea name="introduce" rows=10 cols=50 style="background-color:rgb(251, 252, 181);"></textarea></p>
+        
+
+        <p> <b>(1)what is your favorite sports?</b><br>
+        <input type="checkbox" name="sports" value="1" style="background-color:rgb(251, 252, 181);"> Basketall <br>
+        <input type="checkbox" name="sports" value="2" style="background-color:rgb(251, 252, 181);"> Football <br>
+        <input type="checkbox" name="sports" value="3" style="background-color:rgb(251, 252, 181);"> Volleyballl <br>
+        <input type="checkbox" name="sports" value="4" style="background-color:rgb(251, 252, 181);"> Swimming <br>
+        <input type="checkbox" name="sports" value="5" style="background-color:rgb(251, 252, 181);"> Running <br>
+        <input type="checkbox" name="sports" value="6" style="background-color:rgb(251, 252, 181);"> Golf <br>
+
+
+        <p> <b>(2)what is your favorite fruits?</b><br>
+        <input type="radio" name="fruits" value="1" style="background-color:rgb(251, 252, 181);"> Apple <br>
+        <input type="radio" name="fruits" value="2" style="background-color:rgb(251, 252, 181);"> Banana <br>
+        <input type="radio" name="fruits" value="3" style="background-color:rgb(251, 252, 181);"> Mango <br>
+        <input type="radio" name="fruits" value="4" style="background-color:rgb(251, 252, 181);"> Kiwi <br>
+        <input type="radio" name="fruits" value="5" style="background-color:rgb(251, 252, 181);"> Grapefruits <br>
+        <input type="radio" name="fruits" value="6" style="background-color:rgb(251, 252, 181);"> Pear <br>
+
+        <p> <b>(3)what is your favorite TV Show?</b><br>
+            <input type="radio" name="TVShow" value="1" style="background-color:rgb(251, 252, 181);"> Drama <br>
+            <input type="radio" name="TVShow" value="2" style="background-color:rgb(251, 252, 181);"> Movie <br>
+            <input type="radio" name="TVShow" value="3" style="background-color:rgb(251, 252, 181);"> Documentary <br>
+            <input type="radio" name="TVShow" value="4" style="background-color:rgb(251, 252, 181);"> Talk Show <br>
+            <input type="radio" name="TVShow" value="5" style="background-color:rgb(251, 252, 181);"> Animation <br>
+            <input type="radio" name="TVShow" value="6" style="background-color:rgb(251, 252, 181);"> Concert <br></p>
+
+            
+
+        <p><b>Password: </b>
+            <input type="password" name="password" id=""><br>
+            <b>File: </b>
+            <input type="file" name="upload" id=""><br></p> <!--get은 전송은 안됨-->
+            <b>Hidden value: </b>
+            <input type="hidden" name="hvalue" value="10"><br>
+
+        
+
+           
+            <p><button>submit</button> <!---- 태그가 submit과 동일하다 -->
+            <input type="submit" value="submit">
+
+            <button type="button">send</button> <!--태그가 button과 동일하다(정보를 전송하지 않는다)-->
+            <input type="button" value="send"> 
+
+            <input type="reset" value="reset">
+
+          
+            
+
+
+    
+        </form>
+</body>
+</html>

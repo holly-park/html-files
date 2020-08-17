@@ -1,0 +1,47 @@
+body{
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11pt;
+    /*background-color: hotpink; */
+    background: lavender;
+    background-image: url('../images/flower4.jpg');
+                no-repeat right bottom fixed;
+    
+}
+
+h1.mix{border-style: solid none solid none;
+       border: chocolate;
+       text-align: center;
+       padding: 20px 0px 20px 0px;
+       border-width: 25px 10px 4px 35px;
+}
+
+a:link{
+  
+    background-color: coral
+    ;
+    color: white;
+   display: inline-block;
+   text-decoration: none;
+   padding: 10px 10x 10px 10px;
+}
+
+a:visited{
+    background-color: coral
+    ;
+    color: white;
+    text-align: center;
+    display: inline-block; /*요소들이 가로로 자동배열*/
+    text-decoration: none;
+    
+}
+
+a:hover, a:active{
+
+  
+    background-color: red;
+    text-decoration: none;
+
+}
+
